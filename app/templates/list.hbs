@@ -1,0 +1,3 @@
+{{#each model as |trend| }}
+<button {{action 'goToStream' trend.name}}>{{trend.name}}</button>
+{{/each}}

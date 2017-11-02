@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('list');
+  this.route('tweet-stream', {path : ':name'});
 });
 
 export default Router;
